@@ -13,8 +13,8 @@ video, canvas{
     height: 100%;
     margin: auto;
     position: fixed;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 0px;
 }
 
 #fps {
@@ -29,4 +29,8 @@ video, canvas{
 
 #fps:after {
     content: " fps";
+}
+
+#d{
+    width: 50%;
 }
